@@ -1,7 +1,8 @@
 # Hybrid-Stock-price-prediction-System
 LSTM + XGBoost Ensemble Model for Financial Time-Series Forecasting
 
-Project Summary
+
+##Project Summary
 
 This project builds a hybrid stock price prediction system that forecasts the daily closing price of Tata Motors using:
 
@@ -14,47 +15,55 @@ This project builds a hybrid stock price prediction system that forecasts the da
 The system improves forecasting stability in highly volatile financial markets by integrating technical indicators + deep learning + gradient boosting.
 
 
-Why This Project Stands Out
+##Why This Project Stands Out
 
 1. Combines Machine Learning + Deep Learning
+
 2. Implements advanced feature engineering (financial indicators)
+
 3. Applies hybrid ensemble strategy
+
 4. Uses real NSE stock market data
+
 5. Evaluated with industry-standard metrics (RMSE, MAE, MAPE)
+
 6. Designed with scalability in mind (multi-stock & real-time ready)
 
 
-Model Performance
+##Model Performance
+
  Metric  Hybrid Model 
  ------  ------------ 
  RMSE    13.16        
  MAE     10.53        
  MAPE    1.5%  
+ 
  The hybrid model outperformed standalone LSTM and XGBoost models, reducing overall prediction error.
 
 
-Technical Architecture
-1. Data Pipeline
+##Technical Architecture
 
-  a. Historical stock data collection
+###1. Data Pipeline
 
-  b. Data cleaning & preprocessing
+a. Historical stock data collection
 
-  c. Technical indicator computation
+b. Data cleaning & preprocessing
 
-  d.Feature engineering (including lag features)
+c. Technical indicator computation
 
-  e. Normalization & reshaping
+d.Feature engineering (including lag features)
 
-2. Modeling Layer
+e. Normalization & reshaping
 
-  a. LSTM (Sequential Learning)
+###2. Modeling Layer
 
-  b. XGBoost (Tree-Based Boosting)
+a. LSTM (Sequential Learning)
 
-  c. Hybrid Weighted Averaging
+b. XGBoost (Tree-Based Boosting)
 
-3. Evaluation
+c. Hybrid Weighted Averaging
+
+###3. Evaluation
 
   a. RMSE
 
@@ -62,8 +71,7 @@ Technical Architecture
 
   c. MAPE
 
-
-Technical Indicators Engineered
+##Technical Indicators Engineered
 
   1. SMA (Simple Moving Average)
 
@@ -82,46 +90,49 @@ Technical Indicators Engineered
   8. VWAP
 
 
+##Tech Stack
 
-Tech Stack
- 1. Programming
-  Python
+### 1. Programming
 
-2. Data & Visualization
+Python
 
-  Pandas
+###2. Data & Visualization
 
-  NumPy
+Pandas
 
-  Matplotlib
+NumPy
 
-  Seaborn
+Matplotlib
 
-3. Machine Learning
+Seaborn
 
-  XGBoost
+###3. Machine Learning
 
-  Scikit-learn
+XGBoost
 
-  Deep Learning
+Scikit-learn
 
-  TensorFlow
+Deep Learning
 
-  Keras (LSTM Networks)
+TensorFlow
 
-4. Environment
+Keras (LSTM Networks)
+
+###4. Environment
 
   Jupyter Notebook
+
  
+##Challenges Solved
 
-
-
-
-Challenges Solved
 Problem	                    Approach
+
 1. Stock volatility	        Added technical indicators + lag features
+
 2. LSTM overfitting	        Early stopping + tuning
+
 3. Feature imbalance        Feature selection & scaling
+
 4. Model instability	      Hybrid ensemble strategy
 
 
@@ -155,9 +166,7 @@ Key Skills Demonstrated
 7. Data Visualization
 
 
-
-
-Recruiter Note
+##Recruiter Note
 
 This project demonstrates practical application of AI in financial markets by:
 
@@ -172,8 +181,10 @@ This project demonstrates practical application of AI in financial markets by:
 5. It reflects strong understanding of machine learning pipelines, deep learning architectures, and real-world data challenges.
 
 
-Author
+##Author
 
 Sharmanpreet Singh
+
 B.Tech – Computer Science & Engineering
+
 Amity University Punjab
