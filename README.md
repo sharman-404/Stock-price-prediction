@@ -2,7 +2,7 @@
 LSTM + XGBoost Ensemble Model for Financial Time-Series Forecasting
 
 
-##Project Summary
+**Project Summary**
 
 This project builds a hybrid stock price prediction system that forecasts the daily closing price of Tata Motors using:
 
@@ -15,7 +15,7 @@ This project builds a hybrid stock price prediction system that forecasts the da
 The system improves forecasting stability in highly volatile financial markets by integrating technical indicators + deep learning + gradient boosting.
 
 
-##Why This Project Stands Out
+**Why This Project Stands Out**
 
 1. Combines Machine Learning + Deep Learning
 
@@ -30,7 +30,7 @@ The system improves forecasting stability in highly volatile financial markets b
 6. Designed with scalability in mind (multi-stock & real-time ready)
 
 
-##Model Performance
+**Model Performance**
 
  Metric  Hybrid Model 
  ------  ------------ 
@@ -41,9 +41,9 @@ The system improves forecasting stability in highly volatile financial markets b
  The hybrid model outperformed standalone LSTM and XGBoost models, reducing overall prediction error.
 
 
-##Technical Architecture
+**Technical Architecture**
 
-###1. Data Pipeline
+1. Data Pipeline
 
 a. Historical stock data collection
 
@@ -55,7 +55,7 @@ d.Feature engineering (including lag features)
 
 e. Normalization & reshaping
 
-###2. Modeling Layer
+2. Modeling Layer
 
 a. LSTM (Sequential Learning)
 
@@ -63,40 +63,40 @@ b. XGBoost (Tree-Based Boosting)
 
 c. Hybrid Weighted Averaging
 
-###3. Evaluation
+3. Evaluation
 
-  a. RMSE
+ a. RMSE
 
-  b. MAE
+ b. MAE
 
-  c. MAPE
+ c. MAPE
 
-##Technical Indicators Engineered
+**Technical Indicators Engineered**
 
-  1. SMA (Simple Moving Average)
+1. SMA (Simple Moving Average)
 
-  2. EMA (Exponential Moving Average)
+2. EMA (Exponential Moving Average)
 
-  3. RSI (Relative Strength Index)
+3. RSI (Relative Strength Index)
 
-  4. MACD
+4. MACD
 
-  5. Bollinger Bands
+5. Bollinger Bands
 
-  6. OBV (On Balance Volume)
+6. OBV (On Balance Volume)
 
-  7. ATR (Average True Range)
+7. ATR (Average True Range)
 
-  8. VWAP
+8. VWAP
 
 
-##Tech Stack
+**Tech Stack**
 
-### 1. Programming
+1. Programming
 
 Python
 
-###2. Data & Visualization
+2. Data & Visualization
 
 Pandas
 
@@ -106,7 +106,7 @@ Matplotlib
 
 Seaborn
 
-###3. Machine Learning
+3. Machine Learning
 
 XGBoost
 
@@ -118,12 +118,12 @@ TensorFlow
 
 Keras (LSTM Networks)
 
-###4. Environment
+4. Environment
 
-  Jupyter Notebook
+Jupyter Notebook
 
  
-##Challenges Solved
+**Challenges Solved**
 
 Problem	                    Approach
 
@@ -136,7 +136,7 @@ Problem	                    Approach
 4. Model instability	      Hybrid ensemble strategy
 
 
-Future Scope
+**Future Scope**
 
 1. Multi-stock forecasting
 
@@ -149,7 +149,7 @@ Future Scope
 5. Long-term multi-step forecasting
 
 
-Key Skills Demonstrated
+**Key Skills Demonstrated**
 
 1. Time-Series Forecasting
 
@@ -166,7 +166,7 @@ Key Skills Demonstrated
 7. Data Visualization
 
 
-##Recruiter Note
+**Recruiter Note**
 
 This project demonstrates practical application of AI in financial markets by:
 
@@ -181,7 +181,7 @@ This project demonstrates practical application of AI in financial markets by:
 5. It reflects strong understanding of machine learning pipelines, deep learning architectures, and real-world data challenges.
 
 
-##Author
+**Author**
 
 Sharmanpreet Singh
 
